@@ -364,6 +364,7 @@ function! startuptime#profile(...) abort
   endfor
 
   enew
+  set filetype=startuptime
   silent %put=lines
   call cursor(1, 1)
   silent delete _
